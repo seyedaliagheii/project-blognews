@@ -5,6 +5,12 @@ function inspect($p){
     var_dump($p);
     echo '</pre>';
 }
+function inspectAndDie($p){
+    echo '<pre>';
+    var_dump($p);
+    echo '</pre>';
+    exit;
+}
 
 function basePath($path)
 {

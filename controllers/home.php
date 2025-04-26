@@ -1,6 +1,5 @@
 <?php
 
 //require basePath('views/home.view.php');
-require_once loadView('home')
-
+require_once loadView('home');
 ?>
